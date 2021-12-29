@@ -283,7 +283,7 @@
 						const now = Date.now()
 						const d_now = new Date(now)
 						const birthday = new Date(d_now.getFullYear(), 5, 14, 5)
-						const next_birthday = birthday - now > 0 ? birthday : new Date(d_now.getFullYear() + 1, 9, 31, 5)
+						const next_birthday = birthday - now > 0 ? birthday : new Date(d_now.getFullYear() + 1, 5, 14, 5)
 						// if birthday has passed pick next years' birthday
 						// not just adding year seconds because of dumb leap year math
 						const turning = next_birthday.getFullYear() - 2006
