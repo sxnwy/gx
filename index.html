@@ -234,7 +234,7 @@
 			}
 
 			function projects(...buttons) {
-				const infinite = create_button(() => window.open("https://discord.gg/2115gang"), "Discord Bot ")
+				const infinite = create_button(() => window.open("https://www.3p-instruments.com/happy-new-year-2020/"), "Discord Bot soon ")
 				const go_back = create_button(() => {
 					button_animation(go_back, () => {
 						for (let i = 0; i < buttons.length; i++)
@@ -271,12 +271,10 @@
 						
 						const youtube_button = create_button(() => window.open("https://www.youtube.com/channel/UC3aydMzFxX_tEwIvbNvUl0A"), "youtube")
 						
-						const discord_button = create_button(() => window.open("https://discord.com/pornhub"), "discord")
-
-						const twitch_button = create_button(() => window.open("https://facebook.com"), "facebook")
+						const discord_button = create_button(() => window.open("https://discord.com/pornhub"), "discord (off)")
 						
 						const projects_button = create_button(() => {
-							button_animation(projects_button, () => projects(github_button, youtube_button, discord_button, twitch_button, projects_button))
+							button_animation(projects_button, () => projects(github_button, youtube_button, discord_button, projects_button))
 						}, "projekty")
 					})
 					setInterval(() => {
@@ -327,7 +325,7 @@
 <input id="volume" type="range" name="" step="0.01" min="0" max="100">
 <button id="pause">Odtwarzanie</button>
 <div id="submain">
-<span id="gabrys">Gabrys House</span>
+<span id="gabrys">Gabrys</span>
 <span id="subtext"></span>
 </div>
 <span id="countdown"></span>
